@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Day 6</string>
+
+    <string name="instructions">
+    Select any number of CheckBox and display on the TextView the values of the CheckBox on button click:
+    </string>
+    <string name="display_text">
+    Display text
+    </string>
+    <string name="check_one_text">Check one</string>
+    <string name="check_two_text">Check two</string>
+    <string name="check_three_text">Check three</string>
+    <string name="check_four_text">Check four</string>
+    <string name="button_text">generate</string>
+</resources>
