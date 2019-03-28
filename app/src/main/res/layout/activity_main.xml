@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mambobryan.day6.MainActivity">
+
+    <TextView
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:gravity="center"/>
+
+    <CheckBox
+        android:layout_marginLeft="8dp"
+        android:id="@+id/checkbox_one"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/check_one_text"/>
+
+    <CheckBox
+        android:layout_marginLeft="8dp"
+        android:id="@+id/checkbox_two"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/check_two_text"/>
+
+    <CheckBox
+        android:layout_marginLeft="8dp"
+        android:id="@+id/checkbox_three"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/check_three_text"/>
+
+    <CheckBox
+        android:layout_marginLeft="8dp"
+        android:id="@+id/checkbox_four"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/check_four_text"/>
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/activity_buttons"
+        android:onClick="generate"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/button_text"/>
+
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@+id/display_text_view"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/display_text"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>
